@@ -144,7 +144,6 @@ header .container{
     max-height: auto;
     min-width: 114px;
 }
-    /*di ko na alam balikan ko na lang t*/
     
 .box img {
     border-radius: 6px;
@@ -180,6 +179,7 @@ header .container{
     margin: 20px;
     height: 400px;
 }
+
 .customertestament p {
     font-style: italic;
 }
@@ -195,16 +195,16 @@ header .container{
 }
 
 .signup .container {
-        background-color: #8ce7fa;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 50px;
-        width: 70%;
-        max-width: 1200px; 
-        height: auto;
-        border-radius: 10px;
-    }
+    background-color: #8ce7fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    width: 70%;
+    max-width: 1200px; 
+    height: auto;
+    border-radius: 10px;
+}
     
 .signup p {
     font-size: 12px;
@@ -244,6 +244,7 @@ header .container{
         text-align: center;
         align-items: center;
     }
+
 @media (max-width: 1000px) {
     .navbar .container ul {
         flex-direction: column;
@@ -257,27 +258,28 @@ header .container{
         flex-direction: column;
         padding: 20px;
         text-align: center;
-         align-items: center;
-        }
+        align-items: center;
+    }
 
 
 @media (max-width: 600px) {
     .category .container .categories {
         flex-direction: column;
-            padding-top: 0 60px;
-            text-align: center;
+        padding-top: 0 60px;
+        text-align: center;
     }
+
 @media (max-width: 600px) {
     .category .container .categories img {
         width: 30px;
-        }
+    }
 
 @media (max-width: 50px) {
     div.container  {
         flex-direction: column;
-            padding-top: 0 20px;
-            text-align: center;
-            flex-wrap: wrap;
+        padding-top: 0 20px;
+        text-align: center;
+        flex-wrap: wrap;
      }
     
  @media (max-width: 1000px) {
@@ -285,4 +287,4 @@ header .container{
         flex-direction: column;
         padding: 20px;
         text-align: center;
-        }
+    }
